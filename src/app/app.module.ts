@@ -13,8 +13,7 @@ import { ProductAlertsComponent } from "./product-alerts/product-alerts.componen
     BrowserModule,
     ReactiveFormsModule,
     RouterModule.forRoot([
-      { path: "", component: ProductListComponent },
-      { path: "products/:productId", component: ProductDetailsComponent }
+      { path: "", component: ProductListComponent }
     ])
   ],
   declarations: [
